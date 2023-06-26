@@ -4,7 +4,7 @@ This is a simple implementation of the popular casino card game Blackjack. The g
 
 ### Game Preview 
 
-![image](https://github.com/corydesmond1/Blackjack-Game/assets/134815231/a97d59d5-2dc1-4bbf-a359-cfd2c96960a3)
+![image](https://github.com/corydesmond1/Blackjack-Game/assets/134815231/bb7ce1e8-98d1-459f-bf4d-f0931d37b570)
 ### Features
 Deck creation: The deck of cards is created at the beginning of the game when the window loads.
 Deck shuffling: The deck is shuffled using the Fisher-Yates algorithm to ensure randomness.
