@@ -26,7 +26,8 @@ The dealer will draw cards until their hand value reaches 17 or more.
 The game will determine the winner based on the hand values of the player and the dealer.
 The outcome of the game will be displayed on the screen.
 
-### Acknowledgements
-The shuffle algorithm used is based on the Fisher-Yates algorithm.
+##Next Steps 
+I would like to get my Aces to return either 1 or 11 respectively and incorperate betting functionality.
+
 ## Play Here!
 https://corydesmond1.github.io/Blackjack-Game/
