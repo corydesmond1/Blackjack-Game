@@ -28,3 +28,5 @@ The outcome of the game will be displayed on the screen.
 
 ### Acknowledgements
 The shuffle algorithm used is based on the Fisher-Yates algorithm.
+## Play Here!
+https://corydesmond1.github.io/Blackjack-Game/
