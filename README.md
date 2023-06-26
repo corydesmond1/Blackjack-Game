@@ -13,7 +13,7 @@ This is a simple implementation of the popular casino card game Blackjack. The g
 
 ### Features
 Deck creation: The deck of cards is created at the beginning of the game when the window loads.
-Deck shuffling: The deck is shuffled using the Fisher-Yates algorithm to ensure randomness.
+Deck shuffling: The deck is shuffled on window load.
 Initial hand: The player is dealt 2 cards and the dealers hand has already been played and awaiting your turn to end.
 Hit: The player can request an additional card (hit) to increase their hand value.
 Stay: The player can choose to end their turn and result the hands of both player and dealer.
