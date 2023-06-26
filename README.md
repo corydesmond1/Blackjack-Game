@@ -6,7 +6,7 @@ This is a simple implementation of the popular casino card game Blackjack. The g
 
 ![image](https://github.com/corydesmond1/Blackjack-Game/assets/134815231/bb7ce1e8-98d1-459f-bf4d-f0931d37b570)
 ### MVP
--Hit and Stay button working with click events to show cards
+- Hit and Stay button working with click events to show cards
 - Randomly select a card from the deck array to show on screen
 - Click event to shuffle the deck (onload)
 - Game logic for handling a winner
