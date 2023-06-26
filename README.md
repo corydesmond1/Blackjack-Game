@@ -15,13 +15,7 @@ User interface: The game provides a simple user interface with card images and m
 HTML: Markup language for the game's user interface.
 CSS: Styling language for the game's user interface.
 JavaScript: Programming language used to implement the game's logic and functionality.
-### Getting Started
-To run the game locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/blackjack-game.git
-Navigate to the project directory: cd blackjack-game
-Open the index.html file in a web browser.
-Start playing Blackjack!
 ### How to Play
 When the game loads, you will see the initial state of the game with the dealer's face-down card and the player's two cards.
 Your current hand value is displayed on the screen. You can also see the value of the dealer's face-up card.
