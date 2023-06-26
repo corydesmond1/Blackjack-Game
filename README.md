@@ -5,6 +5,18 @@ This is a simple implementation of the popular casino card game Blackjack. The g
 ### Game Preview 
 
 ![image](https://github.com/corydesmond1/Blackjack-Game/assets/134815231/bb7ce1e8-98d1-459f-bf4d-f0931d37b570)
+### MVP
+-Hit and Stay button working with click events to show cards
+- Randomly select a card from the deck array to show on screen
+- Click event to shuffle the deck (onload)
+- Game logic for handling a winner
+
+
+
+
+
+
+
 ### Features
 Deck creation: The deck of cards is created at the beginning of the game when the window loads.
 Deck shuffling: The deck is shuffled using the Fisher-Yates algorithm to ensure randomness.
