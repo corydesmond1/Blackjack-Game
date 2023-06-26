@@ -1,6 +1,8 @@
 # Blackjack Game
 This is a simple implementation of the popular casino card game Blackjack. The game is played between a player and a dealer, and the goal is to get a hand value as close to 21 as possible without exceeding it. The player with a hand value closest to 21 without busting wins the game.
-###Game Preview 
+
+
+### Game Preview 
 
 ![image](https://github.com/corydesmond1/Blackjack-Game/assets/134815231/cc9fb9dd-f9b0-43d2-8bcf-42ec69d7dc6f)
 ### Features
