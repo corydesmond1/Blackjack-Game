@@ -11,46 +11,6 @@ This is a simple implementation of the popular casino card game Blackjack. The g
 - Click event to shuffle the deck (onload)
 - Game logic for handling a winner
 
-### Favorite line of code
-function canStay() {
-  showDealerCard();
-  let message = "";
-  let sumMsg = "";
-  while (dealerhandSum < 17) {
-    const card = deck.pop();
-    dealerHand.push(card);
-    dealerhandSum += getValue(card);
-    dealerAce += getHandValue(dealerHand);
-  }
-  if (playerhandSum > 21) {
-    message = "Player Bust!, Dealer Wins!";
-    console.log("Player Bust!, Dealer Wins!");
-  } else if (playerhandSum > dealerhandSum || dealerhandSum > 21) {
-    message = "Player Wins!";
-    console.log("Player Wins!");
-  } else if (playerhandSum > 21 && dealerhandSum <= 21) {
-    message = "Dealer Wins!";
-    console.log("Dealer Wins!");
-  } else if (playerhandSum > 21 && dealerhandSum > 21) {
-    message = "No Winner!";
-    console.log("No Winner!");
-  } else if (playerhandSum < dealerhandSum) {
-    console.log("Dealer Wins!");
-    message = "Dealer Wins!";
-  } else if (playerhandSum === dealerhandSum) {
-    message = "House Rules, Dealer Wins!";
-  } else {
-    message = "Dealer Wins!";
-  }
-  document.getElementById("dealerhand").innerHTML = "Dealer -" + dealerhandSum;
-  document.getElementById("winmsg").innerText = message;
-  document.querySelector("playerhand").innerText = sumMsg;
-  return;
-}
-
-
-
-
 ### Features
 Deck creation: The deck of cards is created at the beginning of the game when the window loads.
 Deck shuffling: The deck is shuffled using the Fisher-Yates algorithm to ensure randomness.
